@@ -79,9 +79,5 @@ class DQLAgent():
     
     def adaptive_greedy(self):
         if self.epsilon > self.epsilon_min:
-            self.epsilon *= self.epsilon_decay 
-        
-        
-    
-
-
+            self.epsilon *= self.epsilon_decay
+    print ('object created')
